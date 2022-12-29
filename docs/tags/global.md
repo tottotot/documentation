@@ -219,7 +219,7 @@ Returns and deletes the last item of an array.
 
 ## `{or boolean?;...}`
 
-Gets the first parameter that is not empty or falsy. The `boolean` option can be used to return a boolean instead of the first valid value.
+Gets the first parameter that is not empty or false. The `boolean` option can be used to return a boolean instead of the first valid value.
 
 ```json
 {or;;two}       // "two"
